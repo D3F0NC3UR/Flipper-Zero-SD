@@ -1,51 +1,51 @@
 Filetype: Flipper NFC device
 Version: 3
-# Nfc device type can be UID, Mifare Ultralight, Mifare Classic or ISO15693
-Device type: NTAG215
-# UID is common for all formats
-UID: 04 3A 4A 3C 70 00 00
+# Nfc device type can be UID, Mifare Ultralight, Mifare Classic, Bank card or ISO15693
+Device type: NTAG216
+# UID, ATQA and SAK are common for all formats
+UID: 04 9B FF 92 D1 44 88
 # ISO14443 specific fields
 ATQA: 00 44
 SAK: 00
 # Mifare Ultralight specific data
 Data format version: 1
-Signature: 04 3A 4A FC 3C 70 00 00 04 3A 4A FC 3C 70 00 00 04 3A 4A FC 3C 70 00 00 04 3A 4A FC 3C 70 00 00
-Mifare version: 00 04 04 02 01 00 11 03
+Signature: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Mifare version: 00 04 04 02 01 00 13 03
 Counter 0: 0
 Tearing 0: 00
 Counter 1: 0
 Tearing 1: 00
 Counter 2: 0
 Tearing 2: 00
-Pages total: 135
-Pages read: 135
-Page 0: 04 3A 4A FC
-Page 1: 3C 70 00 00
-Page 2: 4C A3 00 00
-Page 3: E1 11 3E 00
-Page 4: 03 19 D1 01
-Page 5: 15 55 04 74
+Pages total: 231
+Pages read: 231
+Page 0: 04 9B FF E8
+Page 1: 92 D1 44 88
+Page 2: 8F 48 00 00
+Page 3: E1 10 6D 00
+Page 4: 03 18 D1 01
+Page 5: 14 55 04 74
 Page 6: 68 72 65 65
 Page 7: 6D 61 2E 69
-Page 8: 64 2F 31 36
-Page 9: 43 4D 55 34
-Page 10: 5A 46 32 FE
-Page 11: 63 31 10 0E
-Page 12: 00 36 10 26
-Page 13: 00 01 01 10
-Page 14: 45 00 09 54
-Page 15: 45 4C 55 53
-Page 16: 33 32 31 34
-Page 17: 10 03 00 02
-Page 18: 00 22 10 0F
-Page 19: 00 02 00 08
-Page 20: 10 27 00 0A
-Page 21: 6D 36 72 71
-Page 22: 32 73 72 62
-Page 23: 66 78 10 20
-Page 24: 00 06 FF FF
-Page 25: FF FF FF FF
-Page 26: FE 00 00 00
+Page 8: 64 2F 36 43
+Page 9: 4D 55 34 5A
+Page 10: 46 32 FE 00
+Page 11: 00 00 00 00
+Page 12: 00 00 00 00
+Page 13: 00 00 00 00
+Page 14: 00 00 00 00
+Page 15: 00 00 00 00
+Page 16: 00 00 00 00
+Page 17: 00 00 00 00
+Page 18: 00 00 00 00
+Page 19: 00 00 00 00
+Page 20: 00 00 00 00
+Page 21: 00 00 00 00
+Page 22: 00 00 00 00
+Page 23: 00 00 00 00
+Page 24: 00 00 00 00
+Page 25: 00 00 00 00
+Page 26: 00 00 00 00
 Page 27: 00 00 00 00
 Page 28: 00 00 00 00
 Page 29: 00 00 00 00
@@ -149,9 +149,105 @@ Page 126: 00 00 00 00
 Page 127: 00 00 00 00
 Page 128: 00 00 00 00
 Page 129: 00 00 00 00
-Page 130: 00 00 00 BD
-Page 131: 02 00 00 FF
+Page 130: 00 00 00 00
+Page 131: 00 00 00 00
 Page 132: 00 00 00 00
-Page 133: FF FF FF FF
+Page 133: 00 00 00 00
 Page 134: 00 00 00 00
+Page 135: 00 00 00 00
+Page 136: 00 00 00 00
+Page 137: 00 00 00 00
+Page 138: 00 00 00 00
+Page 139: 00 00 00 00
+Page 140: 00 00 00 00
+Page 141: 00 00 00 00
+Page 142: 00 00 00 00
+Page 143: 00 00 00 00
+Page 144: 00 00 00 00
+Page 145: 00 00 00 00
+Page 146: 00 00 00 00
+Page 147: 00 00 00 00
+Page 148: 00 00 00 00
+Page 149: 00 00 00 00
+Page 150: 00 00 00 00
+Page 151: 00 00 00 00
+Page 152: 00 00 00 00
+Page 153: 00 00 00 00
+Page 154: 00 00 00 00
+Page 155: 00 00 00 00
+Page 156: 00 00 00 00
+Page 157: 00 00 00 00
+Page 158: 00 00 00 00
+Page 159: 00 00 00 00
+Page 160: 00 00 00 00
+Page 161: 00 00 00 00
+Page 162: 00 00 00 00
+Page 163: 00 00 00 00
+Page 164: 00 00 00 00
+Page 165: 00 00 00 00
+Page 166: 00 00 00 00
+Page 167: 00 00 00 00
+Page 168: 00 00 00 00
+Page 169: 00 00 00 00
+Page 170: 00 00 00 00
+Page 171: 00 00 00 00
+Page 172: 00 00 00 00
+Page 173: 00 00 00 00
+Page 174: 00 00 00 00
+Page 175: 00 00 00 00
+Page 176: 00 00 00 00
+Page 177: 00 00 00 00
+Page 178: 00 00 00 00
+Page 179: 00 00 00 00
+Page 180: 00 00 00 00
+Page 181: 00 00 00 00
+Page 182: 00 00 00 00
+Page 183: 00 00 00 00
+Page 184: 00 00 00 00
+Page 185: 00 00 00 00
+Page 186: 00 00 00 00
+Page 187: 00 00 00 00
+Page 188: 00 00 00 00
+Page 189: 00 00 00 00
+Page 190: 00 00 00 00
+Page 191: 00 00 00 00
+Page 192: 00 00 00 00
+Page 193: 00 00 00 00
+Page 194: 00 00 00 00
+Page 195: 00 00 00 00
+Page 196: 00 00 00 00
+Page 197: 00 00 00 00
+Page 198: 00 00 00 00
+Page 199: 00 00 00 00
+Page 200: 00 00 00 00
+Page 201: 00 00 00 00
+Page 202: 00 00 00 00
+Page 203: 00 00 00 00
+Page 204: 00 00 00 00
+Page 205: 00 00 00 00
+Page 206: 00 00 00 00
+Page 207: 00 00 00 00
+Page 208: 00 00 00 00
+Page 209: 00 00 00 00
+Page 210: 00 00 00 00
+Page 211: 00 00 00 00
+Page 212: 00 00 00 00
+Page 213: 00 00 00 00
+Page 214: 00 00 00 00
+Page 215: 00 00 00 00
+Page 216: 00 00 00 00
+Page 217: 00 00 00 00
+Page 218: 00 00 00 00
+Page 219: 00 00 00 00
+Page 220: 00 00 00 00
+Page 221: 00 00 00 00
+Page 222: 00 00 00 00
+Page 223: 00 00 00 00
+Page 224: 00 00 00 00
+Page 225: 00 00 00 00
+Page 226: 00 00 00 BD
+Page 227: 04 00 00 FF
+Page 228: 00 05 00 00
+Page 229: FF FF FF FF
+Page 230: 00 00 00 00
 Failed authentication attempts: 0
