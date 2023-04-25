@@ -1,0 +1,27 @@
+Filetype: IR signals file
+Version: 1
+#
+# Noisy Cricket. Turn your flipper into a tiny, high-powered, wide angle Nerf Laser OPs gun (yes, this is cheating)
+#
+# Based of the Ardruino based work of @TomSingh_
+#
+
+name: Purple
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3000 6000 3000 2000 800 2000 800 2000 800 2000 800 2000 1800 2000 800 2000 800 2000 800 2000 1800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800
+
+name: Red
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3000 6000 3000 2000 800 2000 800 2000 800 2000 800 2000 1800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800
+
+
+name: Blue
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3000 6000 3000 2000 800 2000 800 2000 800 2000 800 2000 1800 2000 800 2000 800 2000 800 2000 800 2000 1800 2000 800 2000 800 2000 800 2000 800 2000 800 2000 800
+
