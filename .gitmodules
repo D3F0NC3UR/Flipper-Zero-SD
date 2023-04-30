@@ -1,4 +1,0 @@
-[submodule "infrared/Flipper-IRDB"]
-	path = infrared/Flipper-IRDB
-	url = https://github.com/UberGuidoZ/Flipper-IRDB
-	branch = main
