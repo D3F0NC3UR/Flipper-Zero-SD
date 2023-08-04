@@ -1,0 +1,11 @@
+name: Create Zip File
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Generate ZIP
+        uses: byteever/action-build-zip@master
+        with:
+          filename: 'release.zip'
